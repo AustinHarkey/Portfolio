@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Port</title>
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
+<header id="header" class="header">
     <div class="container">
     <nav class="nav">
         <ul class="nav__list">
@@ -21,6 +22,52 @@
     </nav>
     </div>
 </header>
+
+<section id="skills" class="skills">
+    <div class="container">
+        <div class="skills__titleWrap">
+        <h2 class="skills__title">Skills</h2>
+        <img class="skills__ink" src="img/ink-spot-3.png">
+        </div>
+        <ul class="skills__list">
+            <li class="skills__skill"><img class="skills__icon" src="img/html5-logo.png"><p class="skills__skillName">HTML5</p><p class="skills__years">3+ years</p></li>
+            <li class="skills__skill"><img class="skills__icon" src="img/css3-logo.png"><p class="skills__skillName">CSS3</p><p class="skills__years">3+ years</p></li>
+            <li class="skills__skill"><img class="skills__icon" src="img/js-logo.png"><p class="skills__skillName">Javascript</p><p class="skills__years">1+ years</p></li>
+            <li class="skills__skill"><img class="skills__icon" src="img/sass-logo.png"><p class="skills__skillName">SASS</p><p class="skills__years">1+ years</p></li>
+            <li class="skills__skill"><img class="skills__icon" src="img/git-logo.png"><p class="skills__skillName">Git / Github</p><p class="skills__years">1+ years</p></li>
+            <li class="skills__skill"><img class="skills__icon" src="img/bootstrap-logo.png"><p class="skills__skillName">Bootstrap</p><p class="skills__years">2+ years</p></li>
+            <li class="skills__skill"><img class="skills__icon" src="img/photoshop-logo.png"><p class="skills__skillName">Photoshop</p><p class="skills__years">5+ years</p></li>
+            <li class="skills__skill"><img class="skills__icon" src="img/illustrator-logo.png"><p class="skills__skillName">Illustrator</p><p class="skills__years">2+ years</p></li>
+            <li class="skills__skill"><img class="skills__icon" src="img/responsive-design.png"><p class="skills__skillName">Resonsive Design</p><p class="skills__years">4+ years</p></li>
+            
+        </ul>
+    </div>
+</section>
+
+<div id="hero" class="hero">
+    <div class="container hero__flex">
+        <div id="card" class="hero__card">
+            <img src="img/my-face.jpg" alt="Personal Headshot" class="hero__headshot">
+            <div class="hero__details">
+                <h1 class="hero__name">Austin Harkey</h1>
+                <h2 class="hero__title">Web Developer & Designer</h2>
+                <ul class="hero__contact">
+                    <li class="hero__item"><a class="hero__link" href="tel:949-244-2201"><span class="hero__item--bold">PHONE:</span>949-244-2201</a></li>
+                    <li class="hero__item"><a class="hero__link" href="mailto:austindharkey@gmail.com?subject=Lets work together!"><span class="hero__item--bold">EMAIL:</span>austindharkey@gmail.com</a></li>
+                    <li class="hero__item"><a class="hero__link" href="https://www.google.com/maps/place/Newport+Beach,+CA/@33.6180759,-117.9055852,13z/data=!3m1!4b1!4m5!3m4!1s0x80dce8b6c4bfb3dd:0xf1549554648b59bd!8m2!3d33.6188829!4d-117.9298493"><span class="hero__item--bold">CITY:</span>Newport Beach, CA</a></li>
+                </ul>
+                <a class="hero__social" href="https://github.com/austinharkey"><i class="fab fa-github-square"></i></a><a class="hero__social" href="https://www.linkedin.com/in/austin-harkey-a8894950/"><i class="fab fa-linkedin"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="work" class="work">
+
+</div>
+
+
 
 <!-- main js -->
 <script src="script.js"></script>

@@ -6,7 +6,15 @@
                 "settings": {
                     "foreground": "#19f9d8"
                 }
-            },
+            },'
+            {
+                "scope": "entity.other.attribute-name.html",
+                "settings": {
+                    "foreground": "#F7E3AF"
+                }
+            },'
+            
+            
             {
                 "scope": "constant.numeric.css",
                 "settings": {
